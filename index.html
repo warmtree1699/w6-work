@@ -1,10 +1,137 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Boostrap Index
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/style/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+  <div class="header">
+    <div class="container d-flex">
+      <div class="logo">
+        <a href="index.html">
+          <h1>EXHIBINECTION</h1>
+        </a>
+      </div>
+      <nav class="list-unstyled d-flex align-items-center ms-auto">
+        <li>Sign in</li>
+        <li>Sign up</li>
+        <li>
+          <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <span class="material-icons">
+              confirmation_number
+              <p>3</p>
+            </span>
+          </button>
+        </li>
+        <div class="offcanvas offcanvas-end w-540 h-720 bg-dark px-6" tabindex="-1" id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel" class="font-xl text-white">Cart list</h5>
+          </div>
+          <div class="offcanvas-body">
+            <div class="cartlist-item bg-white mb-3 d-flex position-relative">
+              <a href="#" class="cartlist-close"><span class="material-icons">
+                  close
+                </span></a>
+              <img class="w-120 me-4"
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+                alt="">
+              <div class="cartlist-content">
+                <h3 class="font-xs mb-1">2020 台味設計展</h3>
+                <p class="font-xs mb-1">01 JUN — 31 OCT</p>
+                <p class="font-xs mb-3">全票</p>
+                <p class="font-s">NT$350</p>
+              </div>
+              <div class="cartinputgroup d-flex align-items-center h-100 ms-auto">
+                <button type="button" class="btn border-0 p-0">
+                  <span class="material-icons">
+                    remove
+                  </span>
+                </button>
+                <input type="text" class="form-control border-0 text-center font-s" value="01">
+                <button type="button" class="btn border-0 p-0">
+                  <span class="material-icons">
+                    add
+                  </span>
+              </div>
+            </div>
+            <div class="cartlist-item bg-white mb-3 d-flex position-relative">
+              <a href="#" class="cartlist-close"><span class="material-icons">
+                  close
+                </span></a>
+              <img class="w-120 me-4"
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+                alt="">
+              <div class="cartlist-content">
+                <h3 class="font-xs mb-1">2020 台味設計展</h3>
+                <p class="font-xs mb-1">01 JUN — 31 OCT</p>
+                <p class="font-xs mb-3">全票</p>
+                <p class="font-s">NT$350</p>
+              </div>
+              <div class="cartinputgroup d-flex align-items-center h-100 ms-auto">
+                <button type="button" class="btn border-0 p-0">
+                  <span class="material-icons">
+                    remove
+                  </span>
+                </button>
+                <input type="text" class="form-control border-0 text-center font-s" value="01">
+                <button type="button" class="btn border-0 p-0">
+                  <span class="material-icons">
+                    add
+                  </span>
+              </div>
+            </div>
+            <div class="cartlist-item bg-white mb-3 d-flex position-relative">
+              <a href="#" class="cartlist-close"><span class="material-icons">
+                  close
+                </span></a>
+              <img class="w-120 me-4"
+                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+                alt="">
+              <div class="cartlist-content">
+                <h3 class="font-xs mb-1">2020 台味設計展</h3>
+                <p class="font-xs mb-1">01 JUN — 31 OCT</p>
+                <p class="font-xs mb-3">全票</p>
+                <p class="font-s">NT$350</p>
+              </div>
+              <div class="cartinputgroup d-flex align-items-center h-100 ms-auto">
+                <button type="button" class="btn border-0 p-0">
+                  <span class="material-icons">
+                    remove
+                  </span>
+                </button>
+                <input type="text" class="form-control border-0 text-center font-s" value="01">
+                <button type="button" class="btn border-0 p-0">
+                  <span class="material-icons">
+                    add
+                  </span>
+              </div>
+            </div>
+          </div>
+          <div class="cartlist-footer text-white d-flex justify-content-between align-items-center">
+            <div class="cartlist-footer-content d-flex pb-6">
+              <h4 class="me-5">小記</h4>
+              <h4>NT$1050</h4>
+            </div>
+            <a href="cart_check.html" class="btn btn-light btn-cartlist">前往結帳</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  
 <div class="banner">
     <div class="container">
         <div class="row align-items-center h-480">
@@ -236,3 +363,20 @@ current: index
         </div>
     </div>
 </div> --> -->
+
+    <footer class="footer">
+      <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="font-m">EXHIBINECTION<span class="font-xs ps-3">© 2020. All Rights Reserved.</span></h1>
+        <ul class="list-unstyled d-md-flex d-none">
+          <li class="me-4">Sign in</li>
+          <li>Sign up</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+
+</body>
+
+</html>
