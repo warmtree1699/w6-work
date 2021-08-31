@@ -1,0 +1,153 @@
+---
+title: cart_book
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+<div class="container">
+    <div class="row">
+        <ul class="col-md-8">
+            <li class="row cart-item align-items-center justify-content-between">
+                <!-- cart-item-img -->
+                <div class="col-md-3">
+                    <img class="cart-item-img"
+                        src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg?raw=true"
+                        alt="">
+                </div>
+                <div class="col-md-9 d-flex align-items-center">
+                    <div class="cart-item-title">
+                        <h2 class="mb-1 font-xs">2020 台味設計展</h2>
+                        <h3 class="mb-1 font-xs">01 JUN — 31 OCT</h3>
+                        <p class="font-xs">全票</p>
+                    </div>
+                    <h5 class="font-s px-10">NT$350</h5>
+                    <div class="cart-item-input d-flex align-items-center me-10">
+                        <button type="button" class="btn col-lg p-0 border-0">
+                            <span class="material-icons">
+                                remove
+                            </span>
+                        </button>
+                        <input type="text" class="form-control p-0 border-0 col-lg text-center font-s fw-bold"
+                            value="01">
+                        <button type="button" class="btn col-lg p-0 border-0">
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                    <button type="button" class="btn">
+                        <span class="material-icons">
+                            close
+                        </span>
+                    </button>
+                </div>
+            </li>
+            <li class="row cart-item align-items-center justify-content-between">
+                <!-- cart-item-img -->
+                <div class="col-md-3">
+                    <img class="cart-item-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg?raw=true"
+                    alt="">
+                </div>
+                <div class="col-md-9 d-flex align-items-center">
+                    <div class="cart-item-title">
+                        <h2 class="mb-1 font-xs">2020 台味設計展</h2>
+                        <h3 class="mb-1 font-xs">01 JUN — 31 OCT</h3>
+                        <p class="font-xs">全票</p>
+                    </div>
+                    <h5 class="font-s px-10">NT$350</h5>
+                    <div class="cart-item-input d-flex align-items-center me-10">
+                        <button type="button" class="btn col-lg p-0 border-0">
+                            <span class="material-icons">
+                                remove
+                            </span>
+                        </button>
+                        <input type="text" class="form-control p-0 border-0 col-lg text-center font-s fw-bold"
+                            value="01">
+                        <button type="button" class="btn col-lg p-0 border-0">
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                    <button type="button" class="btn">
+                        <span class="material-icons">
+                            close
+                        </span>
+                    </button>
+                </div>
+            </li>
+            <li class="row cart-item align-items-center justify-content-between">
+                <!-- cart-item-img -->
+                <div class="col-md-3">
+                    <img class="cart-item-img" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg?raw=true"
+                    alt=""> 
+                </div>
+                <div class="col-md-9 d-flex align-items-center">
+                    <div class="cart-item-title">
+                        <h2 class="mb-1 font-xs">2020 台味設計展</h2>
+                        <h3 class="mb-1 font-xs">01 JUN — 31 OCT</h3>
+                        <p class="font-xs">全票</p>
+                    </div>
+                    <h5 class="font-s px-10">NT$350</h5>
+                    <div class="cart-item-input d-flex align-items-center me-10">
+                        <button type="button" class="btn col-lg p-0 border-0">
+                            <span class="material-icons">
+                                remove
+                            </span>
+                        </button>
+                        <input type="text" class="form-control p-0 border-0 col-lg text-center font-s fw-bold"
+                            value="01">
+                        <button type="button" class="btn col-lg p-0 border-0">
+                            <span class="material-icons">
+                                add
+                            </span>
+                        </button>
+                    </div>
+                    <button type="button" class="btn">
+                        <span class="material-icons">
+                            close
+                        </span>
+                    </button>
+                </div>
+            </li>
+        </ul>
+        <div class="col-6 col-md-4 offset-md-0 offset-0">
+            <div class="d-flex flex-column justify-content-end">
+                <form action="">
+                    <h2 class="mb-3">訂購人資訊</h2>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" id="email" placeholder="example@gmail.com" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">姓名</label>
+                        <input type="text" id="name" class="form-control" placeholder="請輸入姓名">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">電話</label>
+                        <input type="text" id="phone" class="form-control" placeholder="請輸入電話">
+                    </div>
+                    <div class="mb-3 d-flex flex-column">
+                        <label for="" class="form-label">優惠碼</label>
+                        <input type="text" class="form-control" placeholder="TG87526">
+                        <p class="ms-auto text-primary">優惠碼已生效</p>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-between mb-3">
+                    <p class="font-s fw-bold">小記</p>
+                    <p class="font-s fw-bold">NT$1050</p>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <p class="font-s fw-bold">折扣</p>
+                    <p class="font-s fw-bold">-NT$50</p>
+                </div>
+                <div class="d-flex justify-content-between mb-3">
+                    <p class="font-s fw-bold">總金額</p>
+                    <p class="font-s fw-bold">NT$1000</p>
+                </div>
+            <a href="cart_pay.html" type="button" class="btn btn-primary w-100">下一步</a>
+            </div>
+        </div>
+    </div>
+</div>

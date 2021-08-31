@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block; // 消除圖片下方的間距
+    // vertical-align: middle;  也是消除圖片兼具
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+*,*:before,*:after{
+    box-sizing: border-box;
+    text-decoration: none;
+}
